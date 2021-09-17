@@ -1,0 +1,221 @@
+body {
+    font-family: Arial, Tahoma, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container .header {
+    width: 100%;
+    height: auto;
+}
+
+.container .header .top-head {
+    display: flex;
+}
+
+.logo {
+    height: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.pick-list {
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+.pick-list ul {
+    float: right;
+    display: flex;
+    list-style: none;
+    padding-right: 70px;
+}
+
+.pick-list ul .nav-list a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #ff6b81;
+}
+
+.container .header .poster {
+    height: 220px;
+    text-align: center;
+    padding-top: 20px;
+    background-image: url(../pics/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+    background-position: center;
+}
+
+.container .header .poster form {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.container .header .poster form .search {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.container .header .poster form .submit {
+    height: 30px;
+    border-radius: 5px;
+    background-color: #ff6b81;
+    color: white;
+    background-size: cover;
+    border: 2px;
+}
+
+.container .content {
+    width: 100%;
+    height: auto;
+}
+
+.container .content .Title-food {
+    text-align: center;
+}
+
+.container .content .list-foods {
+    display: flex;
+    margin: 0px 190px;
+}
+
+.container .content .list-foods .items {
+    flex-grow: 1;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 5px;
+}
+
+.container .content .list-foods .items a {
+    text-decoration: none;
+}
+
+.container .content .list-foods .items img {
+    width: 94%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.container .content .list-foods .items p {
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 181px;
+    margin: 10px auto;
+    color: white;
+    position: absolute;
+    left: 100px;
+    bottom: 26px;
+}
+
+.container .content .Title-f {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container .content .content-foot {
+    background-color: #D8D8D8;
+    width: 100%;
+    height: auto;
+}
+
+.container .content .content-foot .list-menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 30px;
+}
+
+.content .content-foot .list-menu .menu-f {
+    flex-grow: 1;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    width: 40%;
+    height: 147px;
+    display: flex;
+}
+
+.content .content-foot .list-menu .menu-f img {
+    padding: 20px;
+    width: 60%;
+    float: left;
+    border-radius: 30px;
+}
+
+.menu-f .nav-menu {
+    width: 40%;
+}
+
+.decreption {
+    margin-block: 10px;
+}
+
+.decreption p {
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.decreption .btn-order {
+    border-radius: 5px;
+    background-color: #ff6b81;
+    color: white;
+    background-size: cover;
+    border: 2px;
+    text-decoration: none;
+    display: inline-block;
+    height: 24px;
+    text-align: center;
+    width: 80px;
+    margin-top: 8px;
+    padding-top: 6px;
+}
+
+.content .see-f {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+
+.content .see-f a {
+    text-decoration: none;
+    color: #ff6b81;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon ul {
+    list-style: none;
+}
+
+.icon ul li {
+    display: inline;
+    padding: 0.5rem;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    text-align: center;
+}
+
+.text a {
+    color: #ff6b81;
+    text-decoration: none;
+}

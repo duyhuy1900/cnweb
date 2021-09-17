@@ -1,0 +1,84 @@
+.order-food {
+    background-image: url(../pics/bg.jpg);
+    width: 1080px;
+    height: auto;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-position: top;
+    background-size: cover;
+}
+
+.title-menu {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    color: white;
+    font-size: 22px;
+}
+
+.menu-chos {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.menu-chos img {
+    padding: 20px;
+    width: 21%;
+    float: left;
+    border-radius: 30px;
+}
+
+.form-c {
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.left-c .quantity {
+    width: 55%;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.information {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-block-end: 40px;
+}
+
+.form-in {
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.form-in input {
+    width: 97%;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.form-in label {
+    font-weight: bold;
+}
+
+.form-in #adress {
+    padding-bottom: 200px;
+}
+
+.form-in .submit {
+    height: 30px;
+    border-radius: 5px;
+    background-color: #ff6b81;
+    color: white;
+    background-size: cover;
+    border: 2px;
+}
